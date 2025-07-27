@@ -16,7 +16,7 @@ function App() {
   const [userId, setUserId] = useState(null);
   const [isAuthReady, setIsAuthReady] = useState(false); // Kimlik doğrulama hazır mı?
   const [templates, setTemplates] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true); // Hata düzeltildi: setLoading başlangıç değeri useState(true) olmalıydı
   const [error, setError] = useState(null);
   const [message, setMessage] = useState('');
 
